@@ -1,8 +1,10 @@
+old GIF using zoxide:
 [![xplr-zoxide.gif](https://s6.gifyu.com/images/xplr-zoxide.gif)](https://gifyu.com/image/AclQ)
 
 ## Requirements
 
-- [zoxide](https://github.com/ajeetdsouza/zoxide)
+- ~~[zoxide] (https://github.com/ajeetdsouza/zoxide)~~
+- [z.lua](https://github.com/skywind3000/z.lua)
 
 ## Installation
 
@@ -34,11 +36,11 @@
 
   -- Or
 
-  require("zoxide").setup{
+  require("zlua").setup{
     bin = "zoxide",
     mode = "default",
     key = "Z",
   }
 
-  -- Type `Z` to spawn zoxide prompt.
+  -- Type `Z` to spawn z.lua prompt.
   ```
